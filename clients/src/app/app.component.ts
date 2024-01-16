@@ -5,9 +5,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
-export default class AppComponent implements OnInit {
+export  class AppComponent implements OnInit {
   title = 'Dating App';
   users : any ;
   constructor(private http:HttpClient) {}//fetch data from api 
@@ -22,7 +22,7 @@ export default class AppComponent implements OnInit {
     // subscribe to the request
   }
 
-
+  
 
   
 }
