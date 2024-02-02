@@ -10,18 +10,18 @@ namespace API.Data.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<byte[]>(
+          /*  migrationBuilder.AddColumn<byte[]>(
                 name : "PasswordHash",
                 table : "Users",
                 type : "BLOB",
                 nullable : true
-            );
-            migrationBuilder.AddColumn<byte[]>(
+            ); */
+          /*  migrationBuilder.AddColumn<byte[]>(
                 name : "PasswordSalt",
                 table : "Users",
                 type : "BLOB",
                 nullable : true
-            );
+            ); */
 
 
         }

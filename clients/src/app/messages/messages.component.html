@@ -1,1 +1,19 @@
-<p>messages works!</p>
+<form #editForm="ngForm" id="editForm" (ngSubmit)="updateMessage()">
+    <h1 class="mt-2">Description</h1>
+    <textarea class="form-control"
+    [(ngModel)]="message"
+    name = "introduction"
+    rows="6"
+    ></textarea>
+    <button type="submit" form="editForm" class="btn btn-success col-12"> Save Changes </button>
+</form>
+
+<div> 
+
+     
+
+    
+
+</div>
+
+
